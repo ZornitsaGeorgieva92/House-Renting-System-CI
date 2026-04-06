@@ -16,7 +16,7 @@ namespace HouseRentingSystem.Tests.UnitTests
         public void GetAgentId_ShouldReturnCorrectUserId()
         {
             // Arrange
-
+            //
             // Act: invoke the service method with valid id
             var resultAgentId = this.agentService.GetAgentId(this.Agent.UserId);
 
